@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libVPRO_SIMULTOR_LIB.a"
+)

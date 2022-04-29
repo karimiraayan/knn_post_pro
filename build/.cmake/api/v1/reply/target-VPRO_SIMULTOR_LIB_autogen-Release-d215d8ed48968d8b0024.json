@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "VPRO_SIMULTOR_LIB_autogen::@050c8c2efcd5bea7666a",
+	"isGeneratorProvided" : true,
+	"name" : "VPRO_SIMULTOR_LIB_autogen",
+	"paths" : 
+	{
+		"build" : "VPRO_SIMULATOR_LIB",
+		"source" : "/home/karimi/vpro/isa_intrinsic_lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/VPRO_SIMULATOR_LIB/CMakeFiles/VPRO_SIMULTOR_LIB_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/VPRO_SIMULATOR_LIB/CMakeFiles/VPRO_SIMULTOR_LIB_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

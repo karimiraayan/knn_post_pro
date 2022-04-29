@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DNUM_CLUSTERS=2 -DNUM_VU_PER_CLUSTER=2 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSCRIPTED=1 -DSIMULATION=1 -DSTAT_COMMENT=\\\"knn_post_pro\\\" -I/home/karimi/vpro/vpro/knn_post_pro/includes -I/home/karimi/vpro/vpro/knn_post_pro/../../isa_intrinsic_lib -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -Wall -Wextra -Wno-unused-parameter -O3   -fPIC -std=gnu++17 -o CMakeFiles/sim.dir/sources/helper.cpp.o -c /home/karimi/vpro/vpro/knn_post_pro/sources/helper.cpp",
+  "file": "/home/karimi/vpro/vpro/knn_post_pro/sources/helper.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DNUM_CLUSTERS=2 -DNUM_VU_PER_CLUSTER=2 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSCRIPTED=1 -DSIMULATION=1 -DSTAT_COMMENT=\\\"knn_post_pro\\\" -I/home/karimi/vpro/vpro/knn_post_pro/includes -I/home/karimi/vpro/vpro/knn_post_pro/../../isa_intrinsic_lib -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -Wall -Wextra -Wno-unused-parameter -O3   -fPIC -std=gnu++17 -o CMakeFiles/sim.dir/home/karimi/vpro/vpro/common/vpro_globals.cpp.o -c /home/karimi/vpro/vpro/common/vpro_globals.cpp",
+  "file": "/home/karimi/vpro/vpro/common/vpro_globals.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DNUM_CLUSTERS=2 -DNUM_VU_PER_CLUSTER=2 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DSCRIPTED=1 -DSIMULATION=1 -DSTAT_COMMENT=\\\"knn_post_pro\\\" -I/home/karimi/vpro/vpro/knn_post_pro/includes -I/home/karimi/vpro/vpro/knn_post_pro/../../isa_intrinsic_lib -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -Wall -Wextra -Wno-unused-parameter -O3   -fPIC -std=gnu++17 -o CMakeFiles/sim.dir/main.cpp.o -c /home/karimi/vpro/vpro/knn_post_pro/main.cpp",
+  "file": "/home/karimi/vpro/vpro/knn_post_pro/main.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/VPRO_SIMULTOR_LIB_autogen/mocs_compilation.cpp.o -c /home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/mocs_compilation.cpp",
+  "file": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/core_class_wrapper.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/isa_intrinsic_aux_lib.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/Cluster.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/DMA.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/VectorLane.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/VectorLaneLS.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/VectorUnit.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/stats/DMAStat.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/stats/LaneStat.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/stats/SimStat.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/architecture/stats/UnitStat.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/commands/CommandBase.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/commands/CommandDMA.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/commands/CommandSim.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/commands/CommandVPRO.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/model/vproCore.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/model/vproCore.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/model/vproCore.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/VectorMain.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/helper/debugHelper.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/helper/typeConversion.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/simCore.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/simSim.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/simSim.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/simSim.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/commandstablewidget.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/commandwindow.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/dataupdatefunctions.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/lmtableview.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/rftableview.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/savemain.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/savesettings.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/siminitfunctions.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/simupdatefunctions.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.cpp"
+},
+{
+  "directory": "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+  "command": "/usr/bin/g++  -DIS_SIMULATION=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB -I/home/karimi/vpro/isa_intrinsic_lib -I/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include -I/home/karimi/vpro/isa_intrinsic_lib/. -I/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/VPRO_SIMULTOR_LIB.dir/simulator/windows/Commands/spinneroverlay.cpp.o -c /home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.cpp",
+  "file": "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.cpp"
+}
+]

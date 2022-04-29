@@ -1,0 +1,712 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "VPRO_SIMULATOR_LIB/libVPRO_SIMULTOR_LIB.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG  "
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "IS_SIMULATION=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB"
+				},
+				{
+					"path" : "/home/karimi/vpro/isa_intrinsic_lib"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/karimi/vpro/isa_intrinsic_lib/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "VPRO_SIMULTOR_LIB_autogen::@050c8c2efcd5bea7666a"
+		}
+	],
+	"id" : "VPRO_SIMULTOR_LIB::@050c8c2efcd5bea7666a",
+	"name" : "VPRO_SIMULTOR_LIB",
+	"nameOnDisk" : "libVPRO_SIMULTOR_LIB.a",
+	"paths" : 
+	{
+		"build" : "VPRO_SIMULATOR_LIB",
+		"source" : "/home/karimi/vpro/isa_intrinsic_lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				20
+			]
+		},
+		{
+			"name" : "Header Files SIM",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				36
+			]
+		},
+		{
+			"name" : "Header Files SIM\\model\\architecture",
+			"sourceIndexes" : 
+			[
+				37,
+				38,
+				39,
+				40,
+				41
+			]
+		},
+		{
+			"name" : "Header Files SIM\\model\\architecture\\stats",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Header Files SIM\\model\\commands",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				49
+			]
+		},
+		{
+			"name" : "Header Files SIM\\model",
+			"sourceIndexes" : 
+			[
+				50,
+				51
+			]
+		},
+		{
+			"name" : "Header Files SIM\\simulator",
+			"sourceIndexes" : 
+			[
+				52,
+				55,
+				56
+			]
+		},
+		{
+			"name" : "Header Files SIM\\simulator\\helper",
+			"sourceIndexes" : 
+			[
+				53,
+				54
+			]
+		},
+		{
+			"name" : "Header Files SIM\\simulator\\windows\\Commands",
+			"sourceIndexes" : 
+			[
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/core_dma_broadcast.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/vproCore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/structTypes.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/simSim.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib_old.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/core.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/model/vproCore.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/setting.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.h",
+			"sourceGroupIndex" : 9
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

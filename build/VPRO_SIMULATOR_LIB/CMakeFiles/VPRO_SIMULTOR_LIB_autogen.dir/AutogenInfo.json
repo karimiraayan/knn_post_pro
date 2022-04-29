@@ -1,0 +1,358 @@
+{
+	"BUILD_DIR" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen",
+	"CMAKE_BINARY_DIR" : "/home/karimi/vpro/vpro/knn_post_pro/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/karimi/vpro/isa_intrinsic_lib",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/karimi/vpro/vpro/knn_post_pro",
+	"HEADERS" : 
+	[
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.h",
+			"MU",
+			"EWIEGA46WW/moc_core_class_wrapper.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/core_dma_broadcast.hpp",
+			"MU",
+			"EWIEGA46WW/moc_core_dma_broadcast.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.h",
+			"MU",
+			"EWIEGA46WW/moc_isa_intrinsic_aux_lib.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib_old.h",
+			"MU",
+			"EWIEGA46WW/moc_isa_intrinsic_aux_lib_old.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.h",
+			"MU",
+			"E5BDB4F6IB/moc_Cluster.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.h",
+			"MU",
+			"E5BDB4F6IB/moc_DMA.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.h",
+			"MU",
+			"E5BDB4F6IB/moc_VectorLane.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.h",
+			"MU",
+			"E5BDB4F6IB/moc_VectorLaneLS.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.h",
+			"MU",
+			"E5BDB4F6IB/moc_VectorUnit.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.h",
+			"MU",
+			"FFIK4K5CK5/moc_DMAStat.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.h",
+			"MU",
+			"FFIK4K5CK5/moc_LaneStat.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.h",
+			"MU",
+			"FFIK4K5CK5/moc_SimStat.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.h",
+			"MU",
+			"FFIK4K5CK5/moc_UnitStat.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.h",
+			"MU",
+			"XEO5DOODP2/moc_CommandBase.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.h",
+			"MU",
+			"XEO5DOODP2/moc_CommandDMA.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.h",
+			"MU",
+			"XEO5DOODP2/moc_CommandSim.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.h",
+			"MU",
+			"XEO5DOODP2/moc_CommandVPRO.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/core.h",
+			"MU",
+			"NLOY5YBGEN/moc_core.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/vproCore.h",
+			"MU",
+			"NLOY5YBGEN/moc_vproCore.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.h",
+			"MU",
+			"LXGZ3MSUWV/moc_VectorMain.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.h",
+			"MU",
+			"ZWVAW5QCEQ/moc_debugHelper.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/structTypes.hpp",
+			"MU",
+			"ZWVAW5QCEQ/moc_structTypes.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.h",
+			"MU",
+			"ZWVAW5QCEQ/moc_typeConversion.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/setting.h",
+			"MU",
+			"LXGZ3MSUWV/moc_setting.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.h",
+			"MU",
+			"LXGZ3MSUWV/moc_simCore.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.h",
+			"MU",
+			"7JQH7IAJVV/moc_commandstablewidget.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.h",
+			"MU",
+			"7JQH7IAJVV/moc_commandwindow.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.h",
+			"MU",
+			"7JQH7IAJVV/moc_dataupdatefunctions.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.h",
+			"MU",
+			"7JQH7IAJVV/moc_lmtableview.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.h",
+			"MU",
+			"7JQH7IAJVV/moc_rftableview.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.h",
+			"MU",
+			"7JQH7IAJVV/moc_savemain.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.h",
+			"MU",
+			"7JQH7IAJVV/moc_savesettings.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.h",
+			"MU",
+			"7JQH7IAJVV/moc_siminitfunctions.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.h",
+			"MU",
+			"7JQH7IAJVV/moc_simupdatefunctions.cpp"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.h",
+			"MU",
+			"7JQH7IAJVV/moc_spinneroverlay.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"IS_SIMULATION=1",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB",
+		"/home/karimi/vpro/isa_intrinsic_lib",
+		"/home/karimi/vpro/isa_intrinsic_lib",
+		"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/VPRO_SIMULTOR_LIB_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/CMakeFiles/VPRO_SIMULTOR_LIB_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/karimi/vpro/vpro/knn_post_pro/build/VPRO_SIMULATOR_LIB/CMakeFiles/VPRO_SIMULTOR_LIB_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/karimi/vpro/isa_intrinsic_lib/core_class_wrapper.cpp", "MU" ],
+		[ "/home/karimi/vpro/isa_intrinsic_lib/isa_intrinsic_aux_lib.cpp", "MU" ],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/Cluster.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/DMA.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLane.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorLaneLS.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/VectorUnit.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/DMAStat.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/LaneStat.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/SimStat.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/architecture/stats/UnitStat.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandBase.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandDMA.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandSim.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/model/commands/CommandVPRO.cpp",
+			"MU"
+		],
+		[ "/home/karimi/vpro/isa_intrinsic_lib/model/vproCore.cpp", "MU" ],
+		[ "/home/karimi/vpro/isa_intrinsic_lib/simulator/VectorMain.cpp", "MU" ],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/debugHelper.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/helper/typeConversion.cpp",
+			"MU"
+		],
+		[ "/home/karimi/vpro/isa_intrinsic_lib/simulator/simCore.cpp", "MU" ],
+		[ "/home/karimi/vpro/isa_intrinsic_lib/simulator/simSim.cpp", "MU" ],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandstablewidget.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/commandwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/dataupdatefunctions.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/lmtableview.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/rftableview.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savemain.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/savesettings.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/siminitfunctions.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/simupdatefunctions.cpp",
+			"MU"
+		],
+		[
+			"/home/karimi/vpro/isa_intrinsic_lib/simulator/windows/Commands/spinneroverlay.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
