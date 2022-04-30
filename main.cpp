@@ -58,6 +58,9 @@ int main(int argc, char *argv[]) {
     
     // ************************** YOUR CODE **************************** //
 
+//---------------------------------------------label2D finder------------------------------------------------
+if (bool label2D_to_neibor=true) //to activate label2D neibor finder
+{
 int upload_legnth=16;
 int S=5;
 bool pad_flags[4];
@@ -70,8 +73,7 @@ pad_flags[CommandDMA::PAD::LEFT] = true;
 dma_set_pad_widths(2,0,0,2);
 dma_set_pad_value(0);
 dma_ext2D_to_loc1D(0,0x0,0x0,1026-(upload_legnth+4)+1,upload_legnth+4,upload_legnth+4,pad_flags);
-dma_wait_to_finish(0xFFFF);
-//till here everything is right, for a 16,16 neiborhood we need 20,20 window wich is padded 2,2 with zero         
+dma_wait_to_finish(0xFFFF);        
 for (int z=0; z<16;z=z+2)
     {
         int offset_fixer=0;
@@ -101,7 +103,6 @@ for (int z=0; z<16;z=z+2)
 }                
 for (int y=0;y<upload_legnth;y++)   
 {  
-    // *2 is the extention for 2 byt speicher
 dma_loc1D_to_ext2D(0,65536*2+(y*1024*25*2),400+y*upload_legnth*25,1,25,16);
 }    
 dma_wait_to_finish(0xFFFF);
@@ -140,7 +141,6 @@ for (int z=0; z<16;z=z+2)
 }                
     for (int y=0;y<upload_legnth;y++)   
     {  
-        // *2 is the extention for 2 byt speicher
     dma_loc1D_to_ext2D(0,131072+((y*1024*25)+1008*25)*2,400+y*upload_legnth*25,1,25,16);
     }    
     dma_wait_to_finish(0xFFFF); 
@@ -183,7 +183,6 @@ for (int n=1;n<64-1;n++)
         }                
     for (int y=0;y<upload_legnth;y++)   
         {  
-            // *2 is the extention for 2 byt speicher
         dma_loc1D_to_ext2D(0,131072+(y*1024*25)*2+(upload_legnth*n*25)*2,400+y*upload_legnth*25,1,25,16);
         }    
         dma_wait_to_finish(0xFFFF);     
@@ -226,7 +225,6 @@ for (int n_outer=1;n_outer<3;n_outer++)
         }                
             for (int y=0;y<upload_legnth;y++)   
                 {  
-                    // *2 is the extention for 2 byt speicher
                 dma_loc1D_to_ext2D(0,131072+((y*1024*25)+1024*upload_legnth*25*n_outer)*2,400+y*upload_legnth*25,1,25,16);
                 }    
                 dma_wait_to_finish(0xFFFF);     
@@ -271,7 +269,6 @@ for (int n_outer=1;n_outer<3;n_outer++)
             }                
                 for (int y=0;y<upload_legnth;y++)   
                     {  
-                        // *2 is the extention for 2 byt speicher
                     dma_loc1D_to_ext2D(0,131072+((y*1024*25)+(upload_legnth*n*25)+1024*upload_legnth*25*n_outer)*2,400+y*upload_legnth*25,1,25,16);
                     }    
                     dma_wait_to_finish(0xFFFF);     
@@ -317,7 +314,6 @@ for (int n_outer=1;n_outer<3;n_outer++)
             }                
                 for (int y=0;y<upload_legnth;y++)   
                     {  
-                        // *2 is the extention for 2 byt speicher
                     dma_loc1D_to_ext2D(0,131072+((y*1024*25)+(upload_legnth*n*25)+1024*upload_legnth*25*n_outer)*2,400+y*upload_legnth*25,1,25,16);
                     }    
                     dma_wait_to_finish(0xFFFF);     
@@ -358,7 +354,6 @@ for (int z=0; z<16;z=z+2)
 }                
 for (int y=0;y<upload_legnth;y++)   
 {  
-    // *2 is the extention for 2 byt speicher
 dma_loc1D_to_ext2D(0,131072+((y*1024)+16*3*1024+1008)*25*2,400+y*upload_legnth*25,1,25,16);
 }    
 dma_wait_to_finish(0xFFFF);
@@ -398,7 +393,6 @@ for (int z=0; z<16;z=z+2)
 }                
 for (int y=0;y<upload_legnth;y++)   
 {  
-    // *2 is the extention for 2 byt speicher
 dma_loc1D_to_ext2D(0,131072+((y*1024)+16*3*1024)*25*2,400+y*upload_legnth*25,1,25,16);
 }    
 dma_wait_to_finish(0xFFFF); 
@@ -442,14 +436,17 @@ dma_set_pad_value(0);
             }                
                 for (int y=0;y<upload_legnth;y++)   
                     {  
-                        // *2 is the extention for 2 byt speicher
                     dma_loc1D_to_ext2D(0,131072+((y*1024)+upload_legnth*n+3*upload_legnth*1024)*25*2,400+y*upload_legnth*25,1,25,16);
                     }    
                     dma_wait_to_finish(0xFFFF);     
     }
 
+}
+//-----------------------------------------------------------------------------------------------------------
+
+
 
 sim_stop();
-    return 0; // return to crt0.asm and loop forever
+    return 0;
 }
 
