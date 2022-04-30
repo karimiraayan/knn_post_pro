@@ -60,17 +60,16 @@ int main(int argc, char *argv[]) {
 
 int upload_legnth=16;
 int S=5;
-int pad_size_X;
 bool pad_flags[4];
-dma_set_pad_widths(pad_size_X=2,2,0,0);
-dma_set_pad_value(0);
 pad_flags[CommandDMA::PAD::TOP] = true;
 pad_flags[CommandDMA::PAD::RIGHT] = true;
 pad_flags[CommandDMA::PAD::BOTTOM] = true;
 pad_flags[CommandDMA::PAD::LEFT] = true;
+//--------------------------------------------------
 
-
-dma_ext2D_to_loc1D(0,0x0,0x2,1024-upload_legnth-pad_size_X+1,upload_legnth+pad_size_X+2,upload_legnth+pad_size_X+2,pad_flags);
+dma_set_pad_widths(2,0,0,2);
+dma_set_pad_value(0);
+dma_ext2D_to_loc1D(0,0x0,0x0,1026-upload_legnth-4+1,upload_legnth+2+2,upload_legnth+2+2,pad_flags);
 dma_wait_to_finish(0xFFFF);
 //till here everything is right, for a 16,16 neiborhood we need 20,20 window wich is padded 2,2 with zero         
 for (int z=0; z<16;z=z+2)
@@ -82,7 +81,7 @@ for (int z=0; z<16;z=z+2)
                         {
                     
                         __builtin_vpro_instruction_word(LS, NONBLOCKING, IS_CHAIN, FUNC_LOAD, NO_FLAG_UPDATE,
-                        DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+pad_size_X+2), SRC2_IMM(y*(upload_legnth+pad_size_X+2)), S-1, S-1);
+                        DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+2+2), SRC2_IMM(y*(upload_legnth+2+2)), S-1, S-1);
                         __builtin_vpro_instruction_word(L0, NONBLOCKING, NO_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
                         DST_ADDR(S*S*offset_fixer, 1, S*S), SRC1_LS, SRC2_IMM(0), S*S-1, 0);
                         vpro_wait_busy(0xFFFF, 0xFFFF);
@@ -105,13 +104,12 @@ for (int y=0;y<upload_legnth;y++)
     // *2 is the extention for 2 byt speicher
 dma_loc1D_to_ext2D(0,65536*2+(y*1024*25*2),400+y*upload_legnth*25,1,25,16);
 }    
-dma_wait_to_finish(0xFFFF); 
+dma_wait_to_finish(0xFFFF);
 
 //--------------------------------------------------
-/*dma_set_pad_widths(pad_size_X=2,0,0,2);
+dma_set_pad_widths(2,2,0,0);
 dma_set_pad_value(0);
-
-dma_ext2D_to_loc1D(0,1005*2,0,1024-upload_legnth-pad_size_X+1,upload_legnth+pad_size_X+2,upload_legnth+pad_size_X+2,pad_flags);
+dma_ext2D_to_loc1D(0,1006*2,0,1026-(upload_legnth+4)+1,upload_legnth+4,upload_legnth+4,pad_flags);
 dma_wait_to_finish(0xFFFF);       
 for (int z=0; z<16;z=z+2)
     {
@@ -122,7 +120,7 @@ for (int z=0; z<16;z=z+2)
                         {
                     
                         __builtin_vpro_instruction_word(LS, NONBLOCKING, IS_CHAIN, FUNC_LOAD, NO_FLAG_UPDATE,
-                        DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+pad_size_X+2), SRC2_IMM(y*(upload_legnth+pad_size_X+2)), S-1, S-1);
+                        DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+4), SRC2_IMM(y*(upload_legnth+4)), S-1, S-1);
                         __builtin_vpro_instruction_word(L0, NONBLOCKING, NO_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
                         DST_ADDR(S*S*offset_fixer, 1, S*S), SRC1_LS, SRC2_IMM(0), S*S-1, 0);
                         vpro_wait_busy(0xFFFF, 0xFFFF);
@@ -140,26 +138,21 @@ for (int z=0; z<16;z=z+2)
                 DST_ADDR(400, 1, S*S), SRC1_CHAINING(0), SRC2_IMM(z*upload_legnth*S*S), S*S-1, 2*upload_legnth-1);   
                 vpro_wait_busy(0xFFFF, 0xFFFF); 
 }                
-for (int y=0;y<upload_legnth;y++)   
-{  
-    // *2 is the extention for 2 byt speicher
-dma_loc1D_to_ext2D(0,131072+((y*1024*25)+1005*25)*2,400+y*upload_legnth*25,1,25,16);
-}    
-dma_wait_to_finish(0xFFFF); 
-*/
+    for (int y=0;y<upload_legnth;y++)   
+    {  
+        // *2 is the extention for 2 byt speicher
+    dma_loc1D_to_ext2D(0,131072+((y*1024*25)+1008*25)*2,400+y*upload_legnth*25,1,25,16);
+    }    
+    dma_wait_to_finish(0xFFFF); 
+
 //--------------------------------------------------------
 
 
 //for the middel part without padding
-for (int n=1;n<64-2;n++)
-{   dma_set_pad_widths(pad_size_X=2,0,0,0);
+for (int n=1;n<64-1;n++)
+{   dma_set_pad_widths(2,0,0,0);
     dma_set_pad_value(0);
-    bool pad_flags[4];
-pad_flags[CommandDMA::PAD::TOP] = true;
-pad_flags[CommandDMA::PAD::RIGHT] = false;
-pad_flags[CommandDMA::PAD::BOTTOM] = false;
-pad_flags[CommandDMA::PAD::LEFT] = false;
-    dma_ext2D_to_loc1D(0,0+(upload_legnth*n-2)*2,0,1024-upload_legnth-4+1,upload_legnth+pad_size_X+2,upload_legnth+pad_size_X+2,pad_flags);
+    dma_ext2D_to_loc1D(0,0+(upload_legnth*n-2)*2,0,1024-(upload_legnth+4)+1,upload_legnth+4,upload_legnth+4,pad_flags);
     dma_wait_to_finish(0xFFFF);
         for (int z=0; z<16;z=z+2)
             {
@@ -170,7 +163,7 @@ pad_flags[CommandDMA::PAD::LEFT] = false;
                                 {
                             
                                 __builtin_vpro_instruction_word(LS, NONBLOCKING, IS_CHAIN, FUNC_LOAD, NO_FLAG_UPDATE,
-                                DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+pad_size_X+2), SRC2_IMM(y*(upload_legnth+pad_size_X+2)), S-1, S-1);
+                                DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+4), SRC2_IMM(y*(upload_legnth+4)), S-1, S-1);
                                 __builtin_vpro_instruction_word(L0, NONBLOCKING, NO_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
                                 DST_ADDR(S*S*offset_fixer, 1, S*S), SRC1_LS, SRC2_IMM(0), S*S-1, 0);
                                 vpro_wait_busy(0xFFFF, 0xFFFF);
@@ -195,15 +188,15 @@ pad_flags[CommandDMA::PAD::LEFT] = false;
         }    
         dma_wait_to_finish(0xFFFF);     
 }
-
+//------------------------------------
+/*
 //without padding for inner section
-/*dma_set_pad_widths(pad_size_X=0,0,0,0);
 for (int n_outer=1;n_outer<3;n_outer++)
 {   
     for (int n=1;n<64-2;n++)
     {
         
-        dma_ext2D_to_loc1D(0,0+((upload_legnth*n-2)+(1024*upload_legnth*n_outer)-2*1024)*2,2,1024-upload_legnth-4+1,upload_legnth+pad_size_X+2,upload_legnth+pad_size_X+2);
+        dma_ext2D_to_loc1D(0,0+((upload_legnth*n-2)+(1024*upload_legnth*n_outer)-2*1024)*2,0x0,1024-upload_legnth-4+1,upload_legnth+2+2,upload_legnth+2+2);
         dma_wait_to_finish(0xFFFF);
             for (int z=0; z<16;z=z+2)
                 {
@@ -214,7 +207,7 @@ for (int n_outer=1;n_outer<3;n_outer++)
                                     {
                                 
                                     __builtin_vpro_instruction_word(LS, NONBLOCKING, IS_CHAIN, FUNC_LOAD, NO_FLAG_UPDATE,
-                                    DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+pad_size_X+2), SRC2_IMM(y*(upload_legnth+pad_size_X+2)), S-1, S-1);
+                                    DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+2+2), SRC2_IMM(y*(upload_legnth+2+2)), S-1, S-1);
                                     __builtin_vpro_instruction_word(L0, NONBLOCKING, NO_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
                                     DST_ADDR(S*S*offset_fixer, 1, S*S), SRC1_LS, SRC2_IMM(0), S*S-1, 0);
                                     vpro_wait_busy(0xFFFF, 0xFFFF);
@@ -240,6 +233,50 @@ for (int n_outer=1;n_outer<3;n_outer++)
                     dma_wait_to_finish(0xFFFF);     
     }
 }
+
+//-----------------------------------------------------
+
+dma_set_pad_widths(0,0,2,2);
+dma_set_pad_value(0);
+pad_flags[CommandDMA::PAD::TOP] = false;
+pad_flags[CommandDMA::PAD::RIGHT] = false;
+pad_flags[CommandDMA::PAD::BOTTOM] = true;
+pad_flags[CommandDMA::PAD::LEFT] = true;
+dma_ext2D_to_loc1D(0,(1024*3*16-2*1024)*2,0x0,1026-upload_legnth-4+1,upload_legnth+2+2,upload_legnth+2+2,pad_flags);
+dma_wait_to_finish(0xFFFF);       
+for (int z=0; z<16;z=z+2)
+    {
+        int offset_fixer=0;
+            for (int y=0+z; y<2+z;y++)
+                    {
+                    for (int x=0; x<upload_legnth;x++)
+                        {
+                    
+                        __builtin_vpro_instruction_word(LS, NONBLOCKING, IS_CHAIN, FUNC_LOAD, NO_FLAG_UPDATE,
+                        DST_ADDR(0, 0, 0), SRC1_ADDR(x, 1, upload_legnth+2+2), SRC2_IMM(y*(upload_legnth+2+2)), S-1, S-1);
+                        __builtin_vpro_instruction_word(L0, NONBLOCKING, NO_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
+                        DST_ADDR(S*S*offset_fixer, 1, S*S), SRC1_LS, SRC2_IMM(0), S*S-1, 0);
+                        vpro_wait_busy(0xFFFF, 0xFFFF);
+                        offset_fixer++;   
+
+                        }
+                            
+                    }
+            
+
+                __builtin_vpro_instruction_word(L0, NONBLOCKING, IS_CHAIN, FUNC_ADD, NO_FLAG_UPDATE,
+                    DST_ADDR(0, 1, S*S), SRC1_ADDR(0, 1, S*S), SRC2_IMM(0), S*S-1, 2*upload_legnth-1);
+                    
+                __builtin_vpro_instruction_word(LS, NONBLOCKING, NO_CHAIN, FUNC_STORE, NO_FLAG_UPDATE,
+                DST_ADDR(400, 1, S*S), SRC1_CHAINING(0), SRC2_IMM(z*upload_legnth*S*S), S*S-1, 2*upload_legnth-1);   
+                vpro_wait_busy(0xFFFF, 0xFFFF); 
+}                
+for (int y=0;y<upload_legnth;y++)   
+{  
+    // *2 is the extention for 2 byt speicher
+dma_loc1D_to_ext2D(0,131072+((y*1024*25)+16*3*1024*25)*2,400+y*upload_legnth*25,1,25,16);
+}    
+dma_wait_to_finish(0xFFFF); 
 */
 sim_stop();
     return 0; // return to crt0.asm and loop forever
